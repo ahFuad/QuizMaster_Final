@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xml:lang="en" lang="en">
+<h:head>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Result</title>
+    <!-- Materialize sources -->
+    <!-- Compiled and minified CSS -->
+    <!--link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"/-->
+    <link type="text/css" rel="stylesheet" href="../style/materialize.min.css"/>
+
+    <!--Import jQuery before materialize.js-->
+    <!--script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"/-->
+    <!-- Compiled and minified JavaScript -->
+    <!--script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"/-->
+</h:head>
+<h:body styleClass="cyan lighten-5">
+
+    <div class="valign-wrapper" id="login-page">
+        <div class="container">
+            <div class="center-align">
+                <div class="row">
+                    <div class="col s6 offset-s3">
+                        <div class="col s8 offset-s2">
+                            <div class="card">
+                                <div class="card-content">
+                                    <span class="card-title" style="font-size: 20px">Result</span>
+                                    <div class="left-align">
+                                            <div class="row">
+                                                <div class="col s12" style="text-align: center">
+                                                    <h:outputText value="#{questioncontroller.obtainedMarks}" id="obtained-marks" style="font-size: 5em"/>
+                                                </div>
+                                                <div class="col s12" style="text-align: center">
+                                                    <h:outputText value="out of 50" style="font-size: 2em"/>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="card-action">
+                                    <span><h:link value="Take another Quiz !" outcome="topic" style="color: cadetblue; font-size: 14px; margin-right: 0"/> </span>
+                                    <br/>
+                                    <span><h:link value="Home" outcome="userhome" style="font-size: 12px; margin-right: 0; font-weight: bold"/> </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../js/jquery-2.2.4.min.js"/>
+    <script type="text/javascript" src="../js/materialize.min.js"/>
+    <script type="text/javascript">
+        $(document).on("ready", function () {
+            $('#login-page').css({'height': window.innerHeight + 'px'});
+        });
+    </script>
+</h:body>
+</html>

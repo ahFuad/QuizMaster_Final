@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'/>
+
+    <link rel="stylesheet" href="../style/resetUserHome.css"/> <!-- CSS reset -->
+    <link rel="stylesheet" href="../style/styleUserHome.css"/> <!-- Resource style -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"/>
+    <script src="../js/modernizr.js"/> <!-- Modernizr -->
+
+    <title>QuizMaster User Panel</title>
+</head>
+<body>
+<header class="cd-main-header">
+    <a href="#" class="cd-logo"><img src="../image/qmlogo_extra_small.png" alt="Logo" style="margin-left: 10px; margin-right: 10px"/></a>
+
+    <div class="cd-search is-hidden">
+        <form action="#">
+            <input type="search" placeholder="Search..."/>
+        </form>
+    </div> <!-- cd-search -->
+
+    <a href="#" class="cd-nav-trigger">Menu<span/></a>
+
+    <nav class="cd-nav">
+        <ul class="cd-top-nav">
+            <li><a href="#"><i class="far fa-envelope"/> Contact</a></li>
+            <li><a href="#"><i class="far fa-comments"/> Support</a></li>
+            <li class="has-children account">
+                <a href="#"><i class="far fa-user"/> Account</a>
+
+                <ul>
+                    <!--li><a href="#">My Account</a></li>
+                    <li><a href="#">Edit Account</a></li-->
+                    <li>
+                        <h:form>
+                            <h:commandLink action="#{logincontroller.performLogout}" value="Logout"/>
+                        </h:form>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header> <!-- .cd-main-header -->
+
+<main class="cd-main-content">
+    <nav class="cd-side-nav">
+        <ul>
+            <li class="cd-label">Main</li>
+            <li class="has-children overview">
+                <a href="#">Overview</a>
+
+                <!--ul>
+                    <li><a href="#">All Data</a></li>
+                    <li><a href="#">Category 1</a></li>
+                    <li><a href="#">Category 2</a></li>
+                </ul-->
+            </li>
+            <li class="has-children notifications active">
+                <a href="#">Quizes<span class="count">2</span></a>
+
+                <ul>
+                    <li><a href="topic.xhtml">Take Quiz</a></li>
+                    <li><a href="#">Host Quiz</a></li>
+                    <!--li><a href="#">Other</a></li-->
+                </ul>
+            </li>
+
+            <!--li class="has-children comments">
+                <a href="#">Comments</a>
+
+                <ul>
+                    <li><a href="#">All Comments</a></li>
+                    <li><a href="#">Edit Comment</a></li>
+                    <li><a href="#">Delete Comment</a></li>
+                </ul>
+            </li-->
+        </ul>
+
+        <!--ul>
+            <li class="cd-label">Secondary</li>
+            <li class="has-children bookmarks">
+                <a href="#">Bookmarks</a>
+
+                <ul>
+                    <li><a href="#">All Bookmarks</a></li>
+                    <li><a href="#">Edit Bookmark</a></li>
+                    <li><a href="#">Import Bookmark</a></li>
+                </ul>
+            </li>
+            <li class="has-children images">
+                <a href="#">Images</a>
+
+                <ul>
+                    <li><a href="#">All Images</a></li>
+                    <li><a href="#">Edit Image</a></li>
+                </ul>
+            </li>
+
+            <li class="has-children users">
+                <a href="#">Users</a>
+
+                <ul>
+                    <li><a href="#">All Users</a></li>
+                    <li><a href="#">Edit User</a></li>
+                    <li><a href="#">Add User</a></li>
+                </ul>
+            </li>
+        </ul-->
+
+        <!--ul>
+            <li class="cd-label">Action</li>
+            <li class="action-btn"><a href="#">+ Button</a></li>
+        </ul-->
+    </nav>
+
+    <div class="content-wrapper">
+        <h1 style="text-shadow: 2px 2px 8px #888888; font-weight: 300;">Welcome  #{logincontroller.login.userId}!!</h1>
+        <div id="block_container">
+
+            <table style='width:60%; margin-left: auto; margin-right: auto; text-align: center'>
+                <tr>
+                    <td style="padding-right: 30px">
+                        <div style="background-color: #e0f7fa; padding: 15%; box-shadow: 5px 10px 18px #888888;">
+                            <h1>Take Quizzes</h1>
+                            <a href="topic.xhtml" class="button1" style="background-color:#42cc8c">Start</a>
+                        </div>
+                    </td>
+                    <td style="padding-left: 30px">
+                        <div style="background-color: #e0f7fa; padding: 15%; box-shadow: 5px 10px 18px #888888;">
+
+                            <h1>Host Quizzes</h1>
+                            <a href="#" class="button1" style="background-color:#42cc8c">Start</a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+    </div> <!-- .content-wrapper -->
+</main> <!-- .cd-main-content -->
+<script src="../js/jquery-2.1.4.js"/>
+<script src="../js/jquery-menu-aim.js"/>
+<script src="../js/jsUserHome.js"/> <!-- Resource jQuery -->
+</body>
+</html>

@@ -1,0 +1,40 @@
+body{
+    background-color: #e0f7fa;}
+.grid{
+    width: 600px;height: 500px;margin: 0 auto;background-color: ivory; padding: 50px 50px 50px 50px;
+    border-radius: 5px; margin-top: 100px; box-shadow: 5px 10px 18px #888888;
+}
+.grid h1{
+    font-family:'Roboto',sans-serif; font-size: 50px; text-align: center; color: #000000;
+    padding: 2px 0px; border-radius: 30px;
+}
+.buttons{ margin-top: 30px}
+/*.button{
+    background-color: green; width: 250px; font-size: 20px; color: #fff; border: 1px solid black;
+    border-radius: 50px; margin: 10px 40px 10px 0px; padding: 10px 10px;
+}
+.button{
+    cursor: pointer; background-color: darkblue;
+}*/
+.button{
+    width: 250px;
+    padding: 10px 10px;
+    margin: 10px 20px 10px 20px;
+    /*border:0.1em solid #000000;*/
+    font-size: 20px;
+    border-radius:0.12em;
+    /*box-sizing: border-box;*/
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#000000;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    background-color:#42cc8c;
+    text-align:center;
+    transition: all 0.15s;
+    cursor: pointer;
+}
+.button:hover{
+    color:#FFFFFF;
+    border-color:#FFFFFF;
+}

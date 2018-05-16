@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.button{
+    width:8em;
+    display:inline-block;
+    padding:0.46em 1.6em;
+    margin:0 0 10px 20px;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#000000;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    background-color:#42cc8c;
+    text-align:center;
+    transition: all 0.15s;
+    cursor: pointer;
+}
+.button:hover{
+    color:#FFFFFF;
+    border-color:#FFFFFF;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#demo-top-bar {
+    text-align: left;
+    background: #222;
+    position: relative;
+    zoom: 1;
+    width: 100% !important;
+    z-index: 6000;
+    padding: 20px 0 20px;
+}
+
+#demo-bar-inside {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+/*
+#demo-bar-buttons {
+    padding-top: 10px;
+    float: right;
+}*/
+
+#demo-bar-buttons a {
+    font-size: 12px;
+    margin-left: 20px;
+    color: white;
+    margin: 2px 0;
+    text-decoration: none;
+    font: 14px "Lucida Grande", Sans-Serif !important;
+}
+
+#demo-bar-buttons a:hover,
+#demo-bar-buttons a:focus {
+    text-decoration: underline;
+}
+
+#demo-bar-badge {
+    display: inline-block;
+    width: 302px;
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: transparent !important;
+    text-align: center;
+}
+/*
+#demo-bar-badge a {
+    display: block;
+    width: 100%;
+    height: 38px;
+    border-radius: 0;
+    bottom: auto;
+    margin: 0;
+    background: url(#) no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    text-indent: -9999px;
+}*/
+
+#demo-bar-badge:before, #demo-bar-badge:after {
+    display: none !important;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 14px Georgia, serif;
+}
+
+#page-wrap {
+    width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 25px 0;
+    font: 14px Georgia, Serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+#form-quiz input {
+    vertical-align: middle;
+}
+
+#form-quiz ol {
+    margin: 0 0 10px 20px;
+}
+
+#page-wrap ol li {
+    margin: 0 0 20px 0;
+}
+
+#form-quiz ol li div {
+    padding: 4px 0;
+}
+
+#form-quiz h3 {
+    font-size: 17px;
+    margin: 0 0 1px 0;
+    color: #666;
+}
+
+#results {
+    font: 44px Georgia, Serif;
+}

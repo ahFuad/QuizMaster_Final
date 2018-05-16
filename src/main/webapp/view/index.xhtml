@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:head>
+    <!-- Template used name:Creative-Agency. bootsrap.min.css,custom css and javascript files must be added from the template package to run smmothly -->
+    <!-- global bootstrap package may disorient th layout -->
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>QuizMaster</title>
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet"/>
+
+    <!-- Bootstrap -->
+    <link type="text/css" rel="stylesheet" href="../style/bootstrap-3.3.7.min.css" />
+
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="../style/font-awesome.min.css"/>
+
+    <!-- Custom stlylesheet -->
+    <link type="text/css" rel="stylesheet" href="../style/styleIndex.css" />
+
+</h:head>
+
+<body>
+<!-- Header -->
+<header id="home">
+    <!-- Background Image -->
+    <div class="bg-img" style="background-image: url('/image/backgroundindex.jpg');">
+        <div class="overlay"/>
+    </div>
+    <!-- /Background Image -->
+
+    <!-- Nav -->
+    <nav id="nav" class="navbar nav-transparent">
+        <div class="container">
+
+            <div class="navbar-header">
+                <!-- Logo -->
+                <div class="navbar-brand">
+                    <a href="#">
+                        <img class="logo" src="../image/qmlogo_small_alt.png" alt="logo"/>  <!--logo for phone mode -->
+                        <img class="logo-alt" src="../image/qmlogo_small.png" alt="logo"/> <!-- logo for desktop mode -->
+                    </a>
+                </div>
+                <!-- /Logo -->
+
+                <!-- Collapse nav button -->
+                <div class="nav-collapse">
+                    <span/>
+                </div>
+                <!-- /Collapse nav button -->
+            </div>
+
+            <!--  Main navigation  -->
+            <ul class="main-nav nav navbar-nav navbar-right">
+                <li><h:link value="Home"/></li>
+                <li><h:link value="About"/></li>
+                <li><h:link value="FAQ"/></li>
+                <li><h:link value="Contact"/></li>
+                <li><h:link value="Sign Up" outcome="signup"/> </li>
+                <li><h:link value="Log In" outcome="login"/> </li>
+            </ul>
+            <!-- /Main navigation -->
+
+        </div>
+    </nav>
+    <!-- /Nav -->
+
+    <!-- home wrapper -->
+    <div class="home-wrapper">
+        <div class="container">
+            <div class="row">
+
+                <!-- home content -->
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="home-content">
+                        <p class="white-text line-1 anim-typewriter">QuizMaster</p> <!--custom class added for TYPEWRITER effect with CSS-->
+                        <!--button class="white-btn">Get Started!</button>
+                        <button class="main-btn">Learn more</button-->
+                    </div>
+                </div>
+                <!-- /home content -->
+
+            </div>
+        </div>
+    </div>
+    <!-- /home wrapper -->
+
+</header>
+<!-- /Header -->
+
+<!-- About -->
+
+<!-- jQuery Plugins -->
+<script type="text/javascript" src="../js/jquery-2.2.4.min.js"/>
+<script type="text/javascript" src="../js/bootstrap-3.3.7.min.js"/>
+<script type="text/javascript" src="../js/jsIndex.js"/>
+
+</body>
+
+</html>

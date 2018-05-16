@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core"
+      xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <title>QuizMaster</title>
+
+    <link rel="stylesheet" type="text/css" href="../style/styleQuiz.css"/>
+</head>
+
+<body>
+
+<div id="demo-top-bar">
+
+    <div id="demo-bar-inside">
+
+        <h2 id="demo-bar-badge">
+            <a href="#"><img src="../image/qmlogo_small.png" alt="QuizMaster"/></a>
+        </h2>
+
+        <!--div id="demo-bar-buttons">
+        </div-->
+
+    </div>
+
+</div>
+<div id="page-wrap">
+
+    <h1>Quiz</h1>
+
+    <h:form id="form-quiz">
+
+        <ol>
+            <!--Important-->
+            <!-- loops times of element present in the Hashmap Object -->
+            <c:forEach var="entry" items="${questioncontroller.questionSet}" >   <!-- accessing the Hashmap values using JSTL library foreach loop -->
+            <li>
+
+                <h3><h:outputText value="${entry.value.question_desc}"/> </h3>
+
+                <div>
+                    <h:selectOneRadio layout="pageDirection" value="#{entry.value.submittedAnswer}">   <!-- layout property to vertically align the buttons -->
+                        <f:selectItem itemValue="#{entry.value.option_1}" itemLabel="#{entry.value.option_1}"/>
+                        <f:selectItem itemValue="#{entry.value.option_2}" itemLabel="#{entry.value.option_2}"/>
+                        <f:selectItem itemValue="#{entry.value.option_3}" itemLabel="#{entry.value.option_3}"/>
+                        <f:selectItem itemValue="#{entry.value.option_4}" itemLabel="#{entry.value.option_4}"/>
+                    </h:selectOneRadio>
+                </div>
+
+            </li>
+            </c:forEach>
+
+
+        </ol>
+
+        <h:commandButton value="Submit" styleClass="button" id="form-quiz-submit" action="#{questioncontroller.evaluate}"/>
+
+    </h:form>
+
+</div>
+
+</body>
+</html>

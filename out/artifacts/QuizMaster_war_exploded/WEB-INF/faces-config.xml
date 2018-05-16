@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<faces-config version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+    http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd">
+
+    <!-- Sign Up page -->
+    <navigation-rule>
+        <from-view-id>../view/signup.xhtml</from-view-id>
+        <navigation-case>
+            <from-action>#{signupcontroller.performSignup}</from-action>
+            <from-outcome>signup</from-outcome>
+            <to-view-id>../view/signup.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-action>#{signupcontroller.performSignup}</from-action>
+            <from-outcome>login</from-outcome>
+            <to-view-id>../view/login.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+
+    <!-- Log In Page -->
+    <navigation-rule>
+        <from-view-id>../view/login.xhtml</from-view-id>
+        <navigation-case>
+            <from-action>#{logincontroller.performLogIn}</from-action>
+            <from-outcome>login</from-outcome>
+            <to-view-id>../view/login.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-action>#{logincontroller.performLogIn}</from-action>
+            <from-outcome>userhome</from-outcome>
+            <to-view-id>../view/userhome.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+
+    <!-- UserHome Page -->
+    <navigation-rule>
+        <from-view-id>../view/userhome.xhtml</from-view-id>
+        <navigation-case>
+            <from-action>#{logincontroller.performLogout}</from-action>
+            <from-outcome>login</from-outcome>
+            <to-view-id>../view/login.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+
+    <!-- Topic Selection Page -->
+    <navigation-rule>
+        <from-view-id>../view/topic.xhtml</from-view-id>
+        <navigation-case>
+            <from-action>#{questioncontroller.setQuestions}</from-action>
+            <from-outcome>quiz</from-outcome>
+            <to-view-id>../view/quiz.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-action>#{questioncontroller.setQuestions}</from-action>
+            <from-outcome>topic</from-outcome>
+            <to-view-id>../view/topic.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+
+    <!-- Quiz Page -->
+    <navigation-rule>
+        <from-view-id>../view/quiz.xhtml</from-view-id>
+        <navigation-case>
+            <from-action>#{questioncontroller.evaluate}</from-action>
+            <from-outcome>result</from-outcome>
+            <to-view-id>../view/result.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+  
+</faces-config>

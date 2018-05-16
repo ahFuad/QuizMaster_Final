@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+
+<h:head>
+    <link rel="stylesheet" type="text/css" href="../style/styleTopic.css"/>
+</h:head>
+<body>
+<div class="grid">
+    <div id="cat">
+        <h1>TOPIC</h1>
+        <hr style="margin-bottom: 20px"/>
+        <div class="buttons">
+            <!-- outcome attribute will change-->
+            <h:form id="form-topic">
+                <p:growl autoUpdate="true"/>
+                <h:commandButton id="cpp" styleClass="button" value="C++" action="#{questioncontroller.setQuestions}" actionListener="#{questioncontroller.selectedTopic}"/>
+                <h:commandButton id="java" styleClass="button" value="Java" actionListener="#{questioncontroller.selectedTopic}" action="#{questioncontroller.setQuestions}"/>
+                <h:commandButton id="html" styleClass="button" value="HTML" actionListener="#{questioncontroller.selectedTopic}" action="#{questioncontroller.setQuestions}"/>
+                <h:commandButton id="css" styleClass="button" value="CSS" actionListener="#{questioncontroller.selectedTopic}" action="#{questioncontroller.setQuestions}"/>
+            </h:form>
+        </div>
+        <hr style="margin-top: 50px"/>
+
+    </div>
+</div>
+</body>
+
+</html>

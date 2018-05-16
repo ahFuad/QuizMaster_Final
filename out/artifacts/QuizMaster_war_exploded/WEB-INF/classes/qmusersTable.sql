@@ -1,0 +1,1 @@
+create table QMusers (user_id varchar(64),user_email varchar(64) not null,user_hashedPassword varchar(64) not null,user_salt varchar(64),user_type varchar(64) default 'general',constraint pk_user_id primary key (user_id),constraint check_user_email check (user_email like '%@%'));

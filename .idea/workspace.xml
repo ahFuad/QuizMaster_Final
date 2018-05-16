@@ -1,0 +1,1351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="QuizMaster:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/webapp/view/quiz.xhtml" line="46" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/webapp/view/signup.xhtml" line="83" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="44b6a9eb-8811-4bbf-9e8c-ab6834f84955" name="Default" comment="Added the JSTL library">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/QuizMaster_war.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/QuizMaster_war_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/fuad.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_faces_jsf_api_2_2_17.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_faces_jsf_impl_2_2_17.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_primefaces_6_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc8.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/META-INF/MANIFEST.MF" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/DB.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/com/quizmaster/controller/LoginController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/com/quizmaster/controller/QuestionController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/com/quizmaster/controller/SignupController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/com/quizmaster/model/Login.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/com/quizmaster/model/Question.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/com/quizmaster/model/Signup.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/com/quizmaster/model/Topic.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/com/quizmaster/util/AuthFilter.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/com/quizmaster/util/DBConnection.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/com/quizmaster/util/Hashing.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/com/quizmaster/util/SessionManager.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/demoInput_QuestionsTable1.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/demoInput_QuestionsTable2.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/qmusersTable.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/questionsTable.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/faces-config.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/lib/jsf-api-2.2.17.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/lib/jsf-impl-2.2.17.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/lib/jstl-1.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/lib/ojdbc8.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/lib/primefaces-6.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/image/backgroundindex.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/image/qmlogo_extra_small.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/image/qmlogo_extra_small_alt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/image/qmlogo_only_60x60.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/image/qmlogo_only_80x80.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/image/qmlogo_small.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/image/qmlogo_small_alt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/js/bootstrap-3.3.7.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/js/jquery-2.1.4.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/js/jquery-2.2.4.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/js/jquery-menu-aim.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/js/jsIndex.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/js/jsUserHome.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/js/materialize.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/js/modernizr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/style/bootstrap-3.3.7.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/style/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/style/materialize.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/style/resetUserHome.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/style/styleIndex.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/style/styleQuiz.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/style/styleTopic.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/style/styleUserHome.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/view/index.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/view/login.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/view/quiz.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/view/result.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/view/signup.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/view/topic.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/view/userhome.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/quizmaster/model/Login.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/quizmaster/model/Topic.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/quizmaster/util/DBConnection.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/DB.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/demoInput_QuestionsTable1.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/demoInput_QuestionsTable2.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/qmusersTable.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/questionsTable.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/image/backgroundindex.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/image/qmlogo_extra_small.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/image/qmlogo_extra_small_alt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/image/qmlogo_only_60x60.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/image/qmlogo_only_80x80.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/image/qmlogo_small.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/image/qmlogo_small_alt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/view/quiz.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/view/result.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/view/topic.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/view/userhome.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/QuizMaster/META-INF/MANIFEST.MF" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/DB.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/quizmaster/controller/LoginController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/quizmaster/controller/QuestionController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/quizmaster/controller/SignupController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/quizmaster/model/Login.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/quizmaster/model/Question.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/quizmaster/model/Signup.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/quizmaster/model/Topic.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/quizmaster/util/AuthFilter.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/quizmaster/util/DBConnection.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/quizmaster/util/Hashing.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/quizmaster/util/SessionManager.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/demoInput_QuestionsTable1.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/demoInput_QuestionsTable2.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/qmusersTable.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/questionsTable.sql" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="QuizMaster" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="QuestionController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/quizmaster/controller/QuestionController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2091">
+              <caret line="143" column="61" lean-forward="false" selection-start-line="143" selection-start-column="61" selection-end-line="143" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SessionManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/quizmaster/util/SessionManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/quizmaster/util/AuthFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="14" lean-forward="false" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/view/login.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="50" column="128" lean-forward="false" selection-start-line="50" selection-start-column="128" selection-end-line="50" selection-end-column="128" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signup.xhtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/view/signup.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="61" column="152" lean-forward="false" selection-start-line="61" selection-start-column="152" selection-end-line="61" selection-end-column="152" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="867">
+              <caret line="51" column="27" lean-forward="false" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DB.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/DB.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/quizmaster/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="CSS File" />
+        <option value="XHTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>login-page</find>
+      <find>envelope</find>
+      <find>div</find>
+      <find>btn</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/database.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quizmaster/database/DBConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quizmaster/controller/LogIn.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/logIn.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/signUp.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quizmaster/model/Login.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quizmaster/encryption/PasswordEncrypt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quizmaster/hashing/PasswordEncrypt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quizmaster/hashing/Hash.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quizmaster/hashing/Hashing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quizmaster/encryption/Hashing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quizmaster/util/AuthorizationFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quizmaster/util/DBConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quizmaster/util/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/homeGeneral.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/style/indexstyle.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/index1.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quizmaster/util/SessionManager.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/style/styleindex.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/homeuser.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quizmaster/model/quiz.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/style/styleTakequiz.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/takequiz.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quizmaster/model/question.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quizmaster/model/Topic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quizmaster/controller/TopicController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/style/styleQuiz.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quizmaster/model/Quiz.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quizmaster/controller/QuizController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quizmaster/model/Question.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/result.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/quiz.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/index.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/style/styleUserHome.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/style/styleTopic.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quizmaster/model/Signup.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quizmaster/controller/SignupController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/userhome.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quizmaster/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/topic.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/result.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quizmaster/controller/QuestionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/quizmaster/util/AuthFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/DB.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/login.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/signup.xhtml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="QuizMaster Webb Application" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="859" />
+    <option name="y" value="71" />
+    <option name="width" value="940" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="QuizMaster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuizMaster" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuizMaster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuizMaster" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuizMaster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuizMaster" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuizMaster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuizMaster" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuizMaster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuizMaster" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuizMaster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuizMaster" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuizMaster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuizMaster" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="XHTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Oracle" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="OracleSqlPlus" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.4672586" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/js" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/view" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.quizmaster.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/image" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/js" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/style" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.7" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="QuizMaster:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_QuizMaster_8" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50334" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="QuizMaster:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44b6a9eb-8811-4bbf-9e8c-ab6834f84955" name="Default" comment="" />
+      <created>1525430499858</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1525430499858</updated>
+      <workItem from="1525430503828" duration="28580000" />
+      <workItem from="1525619447633" duration="35800000" />
+      <workItem from="1525746418948" duration="18499000" />
+      <workItem from="1525861035090" duration="31810000" />
+      <workItem from="1525949937346" duration="657000" />
+      <workItem from="1525951161228" duration="17043000" />
+      <workItem from="1526027862221" duration="6630000" />
+      <workItem from="1526034685172" duration="44685000" />
+      <workItem from="1526207296369" duration="48817000" />
+      <workItem from="1526365656622" duration="18864000" />
+      <workItem from="1526391529740" duration="31674000" />
+      <workItem from="1526448636175" duration="1261000" />
+      <workItem from="1526452168908" duration="96000" />
+      <workItem from="1526452280453" duration="1521000" />
+    </task>
+    <task id="LOCAL-00001" summary="Designed Login and Signup UI&#10;Configured Database properties &amp; established connection&#10;Create the Login &amp; Signup model and controller">
+      <created>1525724455874</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1525724455874</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial commit -- configured pom and web xml for the project">
+      <created>1525725117488</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1525725117488</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Created Login and Signup model and controller class">
+      <created>1525725360835</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1525725360835</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Configured database properties and connection class and establish a demo connection in Logincontroller class">
+      <created>1525746664542</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1525746664542</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Configured database properties and connection class and establish a demo connection in Logincontroller class">
+      <created>1525746961460</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1525746961460</updated>
+    </task>
+    <task id="LOCAL-00006" summary="created the Login UI">
+      <created>1525747128316</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1525747128316</updated>
+    </task>
+    <task id="LOCAL-00007" summary="created the Signup UI">
+      <created>1525747677001</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1525747677001</updated>
+    </task>
+    <task id="LOCAL-00008" summary="completed login and signup with database..SHA-256 with SALT is used for password encryption">
+      <created>1525778952948</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1525778952949</updated>
+    </task>
+    <task id="LOCAL-00009" summary="made some tweaks on the login and signup process">
+      <created>1525967177079</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1525967177079</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added session control and url filtering for login">
+      <created>1525967301590</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1525967301590</updated>
+    </task>
+    <task id="LOCAL-00011" summary="modify the session control and filtering to correct some bugs">
+      <created>1526069675521</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1526069675521</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Design the Landing page using bootstrap,jquery,javascript libraries. Logo and Background image was added">
+      <created>1526070129087</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1526070129087</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Design the Landing page using bootstrap,jquery,javascript libraries. Logo and Background image was added">
+      <created>1526070337926</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1526070337926</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add the Materialize libraries locally in the project">
+      <created>1526070400414</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1526070400414</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added the navigation rules for new pages">
+      <created>1526423484328</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1526423484328</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added the JSTL library">
+      <created>1526423594784</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1526423594784</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Configure POM for project">
+      <created>1526453000533</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1526453000533</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Create the SignUp process">
+      <created>1526453362618</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1526453362618</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Create the Login Process">
+      <created>1526453510115</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1526453510115</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Added Session Management">
+      <created>1526453569725</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1526453569725</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Added Password Encryption">
+      <created>1526453616254</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1526453616254</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Added CSS style Library and designLanding Page">
+      <created>1526453718357</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1526453718357</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Design Question Model and Controller">
+      <created>1526453814494</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1526453814494</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="285937000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Designed Login and Signup UI&#10;Configured Database properties &amp; established connection&#10;Create the Login &amp; Signup model and controller" />
+    <MESSAGE value="initial commit -- configured pom and web xml for the project" />
+    <MESSAGE value="Created Login and Signup model and controller class" />
+    <MESSAGE value="Configured database properties and connection class and establish a demo connection in Logincontroller class" />
+    <MESSAGE value="created the Login UI" />
+    <MESSAGE value="created the Signup UI" />
+    <MESSAGE value="completed login and signup with database..SHA-256 with SALT is used for password encryption" />
+    <MESSAGE value="made some tweaks on the login and signup process" />
+    <MESSAGE value="added session control and url filtering for login" />
+    <MESSAGE value="modify the session control and filtering to correct some bugs" />
+    <MESSAGE value="Design the Landing page using bootstrap,jquery,javascript libraries. Logo and Background image was added" />
+    <MESSAGE value="Add the Materialize libraries locally in the project" />
+    <MESSAGE value="Added the navigation rules for new pages" />
+    <MESSAGE value="Added the JSTL library" />
+    <MESSAGE value="Configure POM for project" />
+    <MESSAGE value="Create the SignUp process" />
+    <MESSAGE value="Create the Login Process" />
+    <MESSAGE value="Added Session Management" />
+    <MESSAGE value="Added Password Encryption" />
+    <MESSAGE value="Added CSS style Library and designLanding Page" />
+    <MESSAGE value="Design Question Model and Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Design Question Model and Controller" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="27" lean-forward="false" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/DB.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quizmaster/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/signup.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="152" lean-forward="false" selection-start-line="61" selection-start-column="152" selection-end-line="61" selection-end-column="152" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quizmaster/controller/QuestionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1819">
+          <caret line="143" column="61" lean-forward="false" selection-start-line="143" selection-start-column="61" selection-end-line="143" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quizmaster/util/SessionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quizmaster/util/AuthFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="14" lean-forward="false" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/login.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="152" lean-forward="false" selection-start-line="50" selection-start-column="152" selection-end-line="50" selection-end-column="152" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/signup.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="81" column="35" lean-forward="false" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quizmaster/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery-2.2.4.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/bootstrap-4.1.0.min.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/style/bootstrap-4.1.0.min.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/style/styleuserhome.min.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/style/mdb.min.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery-menu-aim.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1350">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/style/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="3" column="3289" lean-forward="false" selection-start-line="3" selection-start-column="3289" selection-end-line="3" selection-end-column="3289" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quizmaster/model/Topic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-10/lib/src.zip!/java.base/java/lang/Object.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quizmaster/model/Topic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quizmaster/controller/TopicController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/style/styleQuiz.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/result.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/style/styleUserHome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/style/styleTopic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="77" lean-forward="true" selection-start-line="4" selection-start-column="77" selection-end-line="4" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="85" column="69" lean-forward="false" selection-start-line="85" selection-start-column="69" selection-end-line="85" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quizmaster/model/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quizmaster/controller/QuizController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quizmaster/model/Quiz.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quizmaster/model/Question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="71" column="40" lean-forward="false" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quizmaster/util/DBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="707">
+          <caret line="79" column="23" lean-forward="false" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quizmaster/util/Hashing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quizmaster/model/Signup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/userhome.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="138" column="61" lean-forward="false" selection-start-line="138" selection-start-column="61" selection-end-line="138" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quizmaster/controller/SignupController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="71" column="36" lean-forward="false" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/quiz.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="63" column="24" lean-forward="false" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/topic.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/result.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="48" column="140" lean-forward="false" selection-start-line="48" selection-start-column="140" selection-end-line="48" selection-end-column="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quizmaster/util/SessionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quizmaster/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quizmaster/controller/QuestionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2091">
+          <caret line="143" column="61" lean-forward="false" selection-start-line="143" selection-start-column="61" selection-end-line="143" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/quizmaster/util/AuthFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="14" lean-forward="false" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/style/materialize.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="5" column="31256" lean-forward="false" selection-start-line="5" selection-start-column="31253" selection-end-line="5" selection-end-column="31256" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/demoInput1.sql" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="27" lean-forward="false" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/DB.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/login.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="128" lean-forward="false" selection-start-line="50" selection-start-column="128" selection-end-line="50" selection-end-column="128" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/signup.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="61" column="152" lean-forward="false" selection-start-line="61" selection-start-column="152" selection-end-line="61" selection-end-column="152" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>QuizMaster:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4672586" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (QuizMaster)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4672586" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jquery-2.1.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>QuizMaster</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4672586" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>ojdbc8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4672586" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

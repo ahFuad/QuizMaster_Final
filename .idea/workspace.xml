@@ -11,116 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44b6a9eb-8811-4bbf-9e8c-ab6834f84955" name="Default" comment="Added the JSTL library">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/QuizMaster_war.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/QuizMaster_war_exploded.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/fuad.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_faces_jsf_api_2_2_17.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_faces_jsf_impl_2_2_17.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_primefaces_6_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/META-INF/MANIFEST.MF" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/DB.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/com/quizmaster/controller/LoginController.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/com/quizmaster/controller/QuestionController.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/com/quizmaster/controller/SignupController.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/com/quizmaster/model/Login.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/com/quizmaster/model/Question.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/com/quizmaster/model/Signup.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/com/quizmaster/model/Topic.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/com/quizmaster/util/AuthFilter.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/com/quizmaster/util/DBConnection.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/com/quizmaster/util/Hashing.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/com/quizmaster/util/SessionManager.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/demoInput_QuestionsTable1.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/demoInput_QuestionsTable2.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/qmusersTable.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/classes/questionsTable.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/faces-config.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/lib/jsf-api-2.2.17.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/lib/jsf-impl-2.2.17.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/lib/jstl-1.2.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/lib/ojdbc8.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/lib/primefaces-6.2.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/WEB-INF/web.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/image/backgroundindex.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/image/qmlogo_extra_small.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/image/qmlogo_extra_small_alt.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/image/qmlogo_only_60x60.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/image/qmlogo_only_80x80.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/image/qmlogo_small.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/image/qmlogo_small_alt.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/js/bootstrap-3.3.7.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/js/jquery-2.1.4.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/js/jquery-2.2.4.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/js/jquery-menu-aim.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/js/jsIndex.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/js/jsUserHome.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/js/materialize.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/js/modernizr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/style/bootstrap-3.3.7.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/style/font-awesome.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/style/materialize.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/style/resetUserHome.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/style/styleIndex.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/style/styleQuiz.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/style/styleTopic.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/style/styleUserHome.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/view/index.xhtml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/view/login.xhtml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/view/quiz.xhtml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/view/result.xhtml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/view/signup.xhtml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/view/topic.xhtml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/QuizMaster_war_exploded/view/userhome.xhtml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/quizmaster/model/Login.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/quizmaster/model/Topic.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/quizmaster/util/DBConnection.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/DB.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/demoInput_QuestionsTable1.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/demoInput_QuestionsTable2.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/qmusersTable.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/questionsTable.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/image/backgroundindex.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/image/qmlogo_extra_small.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/image/qmlogo_extra_small_alt.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/image/qmlogo_only_60x60.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/image/qmlogo_only_80x80.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/image/qmlogo_small.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/image/qmlogo_small_alt.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/view/quiz.xhtml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/view/result.xhtml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/view/topic.xhtml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/view/userhome.xhtml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/QuizMaster/META-INF/MANIFEST.MF" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/DB.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/quizmaster/controller/LoginController.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/quizmaster/controller/QuestionController.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/quizmaster/controller/SignupController.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/quizmaster/model/Login.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/quizmaster/model/Question.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/quizmaster/model/Signup.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/quizmaster/model/Topic.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/quizmaster/util/AuthFilter.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/quizmaster/util/DBConnection.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/quizmaster/util/Hashing.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/quizmaster/util/SessionManager.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/demoInput_QuestionsTable1.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/demoInput_QuestionsTable2.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/qmusersTable.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/questionsTable.sql" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -633,6 +524,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="44b6a9eb-8811-4bbf-9e8c-ab6834f84955" name="Default" comment="" />
+      <changelist id="" name="Added the JSTL library" comment="" />
       <created>1525430499858</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -650,7 +542,7 @@
       <workItem from="1526391529740" duration="31674000" />
       <workItem from="1526448636175" duration="1261000" />
       <workItem from="1526452168908" duration="96000" />
-      <workItem from="1526452280453" duration="1521000" />
+      <workItem from="1526452280453" duration="2777000" />
     </task>
     <task id="LOCAL-00001" summary="Designed Login and Signup UI&#10;Configured Database properties &amp; established connection&#10;Create the Login &amp; Signup model and controller">
       <created>1525724455874</created>
@@ -813,11 +705,102 @@
       <option name="project" value="LOCAL" />
       <updated>1526453814494</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Idea generated files">
+      <created>1526453934659</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1526453934659</updated>
+    </task>
+    <task id="LOCAL-00025" summary="create Database Connection">
+      <created>1526454147284</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1526454147284</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Added Navigation rules">
+      <created>1526454189376</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1526454189376</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Design Topic and result page">
+      <created>1526454281129</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1526454281129</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Create Question Table">
+      <created>1526454379285</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1526454379285</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Design login and sign up model class">
+      <created>1526454511944</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1526454511944</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Added the JSTL library">
+      <created>1526454536165</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1526454536165</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Design the Homepage of users">
+      <created>1526454650921</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1526454650921</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Design the page that'll host the quizes">
+      <created>1526454716217</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1526454716217</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Create the user table">
+      <created>1526454788955</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1526454788955</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Design the QuizMaster Logo">
+      <created>1526454985594</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1526454985594</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Data entry to question table">
+      <created>1526455038696</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1526455038696</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Entry data to question and user table">
+      <created>1526455070128</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1526455070128</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="285937000" />
+    <option name="totallyTimeSpent" value="287193000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -901,20 +884,11 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Designed Login and Signup UI&#10;Configured Database properties &amp; established connection&#10;Create the Login &amp; Signup model and controller" />
-    <MESSAGE value="initial commit -- configured pom and web xml for the project" />
-    <MESSAGE value="Created Login and Signup model and controller class" />
-    <MESSAGE value="Configured database properties and connection class and establish a demo connection in Logincontroller class" />
-    <MESSAGE value="created the Login UI" />
-    <MESSAGE value="created the Signup UI" />
-    <MESSAGE value="completed login and signup with database..SHA-256 with SALT is used for password encryption" />
-    <MESSAGE value="made some tweaks on the login and signup process" />
     <MESSAGE value="added session control and url filtering for login" />
     <MESSAGE value="modify the session control and filtering to correct some bugs" />
     <MESSAGE value="Design the Landing page using bootstrap,jquery,javascript libraries. Logo and Background image was added" />
     <MESSAGE value="Add the Materialize libraries locally in the project" />
     <MESSAGE value="Added the navigation rules for new pages" />
-    <MESSAGE value="Added the JSTL library" />
     <MESSAGE value="Configure POM for project" />
     <MESSAGE value="Create the SignUp process" />
     <MESSAGE value="Create the Login Process" />
@@ -922,7 +896,20 @@
     <MESSAGE value="Added Password Encryption" />
     <MESSAGE value="Added CSS style Library and designLanding Page" />
     <MESSAGE value="Design Question Model and Controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Design Question Model and Controller" />
+    <MESSAGE value="Idea generated files" />
+    <MESSAGE value="create Database Connection" />
+    <MESSAGE value="Added Navigation rules" />
+    <MESSAGE value="Design Topic and result page" />
+    <MESSAGE value="Create Question Table" />
+    <MESSAGE value="Design login and sign up model class" />
+    <MESSAGE value="Added the JSTL library" />
+    <MESSAGE value="Design the Homepage of users" />
+    <MESSAGE value="Design the page that'll host the quizes" />
+    <MESSAGE value="Create the user table" />
+    <MESSAGE value="Design the QuizMaster Logo" />
+    <MESSAGE value="Data entry to question table" />
+    <MESSAGE value="Entry data to question and user table" />
+    <option name="LAST_COMMIT_MESSAGE" value="Entry data to question and user table" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
